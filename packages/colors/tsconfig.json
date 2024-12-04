@@ -1,5 +1,5 @@
 {
-  "extends": "@vintach/tsconfig/base.json",
+  "extends": "@insoftlabs/tsconfig/base.json",
   "include": ["."],
   "exclude": ["node_modules"]
 }

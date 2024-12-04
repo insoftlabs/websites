@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss';
-import { colors } from '@vintach/colors';
+import { colors } from '@insoftlabs/colors';
 import scrollbarPlugin from 'tailwind-scrollbar';
 
 const config: Omit<Config, 'content'> = {

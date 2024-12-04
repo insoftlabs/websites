@@ -8,7 +8,7 @@ export default function handler(
   const { q } = req.query;
 
   fetch(
-    'https://raw.githubusercontent.com/vintach/raddix/main/docs/_config.json'
+    'https://raw.githubusercontent.com/insoftlabs/raddix/main/docs/_config.json'
   )
     .then(response => response.json())
     .then((data: Config) => {

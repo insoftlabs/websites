@@ -7,7 +7,7 @@ export const Footer = () => {
         <span>
           Made by{' '}
           <strong className='ui-font-medium ui-text-black dark:ui-text-white'>
-            Vintach
+            Insoft
           </strong>
         </span>
 

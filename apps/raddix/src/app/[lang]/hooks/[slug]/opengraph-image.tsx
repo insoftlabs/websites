@@ -5,7 +5,7 @@ import { OG } from '@/components/og';
 
 const configRepo = {
   repo: 'raddix',
-  owner: 'vintach',
+  owner: 'insoftlabs',
   contentDirPath: 'docs'
 };
 

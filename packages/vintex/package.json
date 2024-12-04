@@ -32,8 +32,8 @@
   "devDependencies": {
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.4",
-    "@vintach/tailwind": "workspace:*",
-    "@vintach/tsconfig": "workspace:*",
+    "@insoftlabs/tailwind": "workspace:*",
+    "@insoftlabs/tsconfig": "workspace:*",
     "autoprefixer": "^10.4.16",
     "next": "^14.1.0",
     "postcss": "^8.4.31",

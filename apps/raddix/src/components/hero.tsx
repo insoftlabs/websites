@@ -32,7 +32,7 @@ export const Hero = ({ title, description, button }: HeroProps) => {
           <Button
             type='secondary'
             text='GitHub'
-            to='https://github.com/vintach/raddix'
+            to='https://github.com/insoftlabs/raddix'
           />
         </div>
       </div>

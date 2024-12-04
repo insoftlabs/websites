@@ -5,7 +5,7 @@
 ### Getting Started
 
 ```bash
->>> git clone https://github.com/vintach/websites.git
+>>> git clone https://github.com/insoftlabs/websites.git
 
 >>> cd websites
 

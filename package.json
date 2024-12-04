@@ -44,7 +44,7 @@
     "prettier-plugin-tailwindcss": "^0.5.7",
     "storybook": "^7.0.26",
     "turbo": "^1.10.16",
-    "@vintach/tsconfig": "workspace:*"
+    "@insoftlabs/tsconfig": "workspace:*"
   },
   "dependencies": {
     "@raddix/use-interval": "1.1.1",
