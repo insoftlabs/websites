@@ -46,13 +46,13 @@
     "turbo": "^1.10.16",
     "@vintach/tsconfig": "workspace:*"
   },
-  "engines": {
-    "node": ">=18",
-    "pnpm": ">=8"
-  },
   "dependencies": {
     "@raddix/use-interval": "1.1.1",
     "@raddix/use-media-query": "0.1.2",
     "@raddix/use-timeout": "1.1.0"
+  },
+  "packageManager": "pnpm@9.14.4",
+  "engines": {
+    "node": ">=20"
   }
 }
