@@ -10,7 +10,7 @@ interface LinksProp {
 
 const linkList = [
   {
-    href: 'https://github.com/vintach/raddix/tree/main/packages/hooks/',
+    href: 'https://github.com/insoftlabs/raddix/tree/main/packages/hooks/',
     text: 'Source',
     icon: <GithubIcon />
   },
@@ -20,7 +20,7 @@ const linkList = [
     icon: <NpmIcon />
   },
   {
-    href: 'https://app.codecov.io/gh/vintach/raddix/tree/main/packages%2Fhooks%2F',
+    href: 'https://app.codecov.io/gh/insoftlabs/raddix/tree/main/packages%2Fhooks%2F',
     text: 'Coverage',
     icon: <CodecovIcon />
   },

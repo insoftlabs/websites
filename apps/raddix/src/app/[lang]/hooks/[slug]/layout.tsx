@@ -11,7 +11,7 @@ export default async function HooksLayout({
 }) {
   const config = await getConfigFileRepo({
     repo: 'raddix',
-    owner: 'vintach',
+    owner: 'insoftlabs',
     contentDirPath: 'docs'
   });
 

@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const guideConfig = getConfigFile({ lang: 'en', dirPath: 'content/guide' });
   const hookConfig = await getConfigFileRepo({
     repo: 'raddix',
-    owner: 'vintach',
+    owner: 'insoftlabs',
     contentDirPath: 'docs'
   });
 

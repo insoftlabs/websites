@@ -12,7 +12,7 @@ import { configSite } from 'content/site/_config';
 
 const configRepo = {
   repo: 'raddix',
-  owner: 'vintach',
+  owner: 'insoftlabs',
   contentDirPath: 'docs'
 };
 

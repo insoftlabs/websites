@@ -1,5 +1,5 @@
 {
-  "extends": "@vintach/tsconfig/nextjs.json",
+  "extends": "@insoftlabs/tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {
@@ -8,19 +8,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     },
     "strictNullChecks": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

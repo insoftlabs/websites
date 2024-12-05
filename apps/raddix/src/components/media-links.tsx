@@ -22,7 +22,7 @@ export const MediaLinks = () => {
           className='transition-[filter] duration-100 hover:invert-[25%]'
         />
       </Link>
-      <Link href='https://github.com/vintach/raddix' target='_blank'>
+      <Link href='https://github.com/insoftlabs/raddix' target='_blank'>
         <Image
           src='/icons/github.svg'
           alt='GitHub Logo'
