@@ -2,12 +2,12 @@
   "name": "websites",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --no-cache  --continue",
+    "build": "turbo build",
+    "dev": "turbo dev --cache=local:rw",
     "format:check": "prettier --check \"{apps,packages,settings}/**/*.{ts,tsx,css}\" --cache",
     "format:write": "prettier --write \"{apps,packages,settings}/**/*.{ts,tsx,css}\" --cache",
-    "lint": "turbo run lint",
-    "clean": "turbo run clean && rm -rf node_modules",
+    "lint": "turbo lint",
+    "clean": "turbo clean && rm -rf node_modules",
     "prepare": "husky install"
   },
   "author": "Moises Rolando Machuca Valverde",
