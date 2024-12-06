@@ -12,6 +12,11 @@ const nextConfig = {
         source: '/docs/getting-started/:slug',
         destination: '/guide/:slug',
         permanent: true
+      },
+      {
+        source: '/:lang/guide/installation',
+        destination: '/:lang/guide/usage',
+        permanent: true
       }
     ];
   }

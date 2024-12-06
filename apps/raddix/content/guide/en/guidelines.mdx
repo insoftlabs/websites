@@ -1,0 +1,19 @@
+---
+title: "Guidelines"
+description: "These are the guidelines for contributing to our React Hooks project at Raddix."
+---
+
+The following guidelines are designed to help you contribute effectively to the creation of hooks, following the concept of creating zero-dependency modules.
+
+## General Requirements
+
+- Hooks should not depend on any other unnecessary npm modules
+- Keep it short and don't add redundant code. Most hooks should be short and concise functions.
+- Keep the hook API simple and intuitive
+- Avoid multiple arguments or option arguments whenever possible; make it do only one thing
+- Write a test for each use case of the hook
+- At a minimum, include tests for each example you've included in the documentation
+- Make sure to also test the cases that should raise exceptions
+- It's better to be too exhaustive than not exhaustive enough
+- Write tests that are easy to understand and clearly show what is being tested
+- Avoid using the `any` type in TypeScript. Always use explicit types.

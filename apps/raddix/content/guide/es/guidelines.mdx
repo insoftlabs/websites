@@ -1,0 +1,20 @@
+---
+title: "Directrices"
+description: "Estas son las directrices para contribuir a nuestro proyecto de Hooks de React en Raddix."
+---
+
+Las siguientes pautas están diseñadas para ayudarte a contribuir de manera efectiva en la
+creación de hooks, siguiendo el concepto de crear módulos de depencia cero.
+
+## Requisitos Generales
+
+- Los hooks no deben depender de ningún otro módulo npm innecesario
+- Sea breve y no agregue código redundante. La mayoría de los hooks deberían ser funciones cortas y concisas.
+- Mantenga la API de los hooks simple e intuitiva
+- Evite múltiples argumentos o argumentos de opción siempre que sea posible; haga que solo haga una cosa
+- Escriba una prueba para cada caso de uso del hook
+- Como mínimo, incluya pruebas para cada ejemplo que haya incluido en la documentación
+- Asegúrese de probar también los casos que deberían generar excepciones
+- Es mejor ser demasiado exhaustivo que no ser lo suficientemente exhaustivo
+- Escriba pruebas que sean fáciles de entender y que muestren claramente lo que se está probando
+- Evite usar el tipo `any` en TypeScript. Siempre use tipos explícitos.
