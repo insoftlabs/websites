@@ -9,8 +9,22 @@
           "path": "/es/guide/introduction"
         },
         {
-          "title": "Instalación",
-          "path": "/es/guide/installation"
+          "title": "Uso",
+          "path": "/es/guide/usage"
+        }
+      ]
+    },
+    {
+      "title": "Comunidad",
+      "heading": true,
+      "children": [
+        {
+          "title": "Directrices",
+          "path": "/es/guide/guidelines"
+        },
+        {
+          "title": "Contribuyendo",
+          "path": "/es/guide/contributing"
         }
       ]
     }

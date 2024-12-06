@@ -1,12 +1,25 @@
 ---
 title: Introduction
-description: Raddix is a collection of React Hooks that implement common functionality in modern web applications.
+description: Raddix is a zero-dependency React hooks library that does only one thing.
 ---
 
+## Why did we build Raddix?
+Inspired by the concept of dependency-free modules from <a href="https://medium.com/@angustweets/just-a12d54221f65#.ljib0mfr5">this blog post by Angus Croll</a>,
+we aim to apply the same principle to React hooks.
+Providing each hook independently, allowing you to only install what you really need.
 
-## Features
+## When to use Raddix and when not to?
 
-- Easy to learn and use. There is no configuration, just import and use.
-- Written in TypeScript. All types are included.
-- With support for Server Side Rendering (SSR).
-- Fully tested with 100% code coverage.
+While there are great React hook libraries like react-use and usehooks-ts, which allow you to use
+only the necessary hooks via tree-shaking, this technique is not always effective.
+Many hooks depend on others, resulting in larger code and often only a fraction of the
+functionality of each dependent hook is used.
+
+For example, if you only need to use the usehooks-ts `useWindowSize` hook, this hook depends on
+`useEventListener` and `useDebounce` to work. Additionally, useDebounce depends on the
+`lodash.debounce` package. This is great if you need the `debounceDelay` option that this hook's API provides,
+but if you don't, you end up importing more than you really need. Raddix addresses this problem
+by providing each hook independently and doing one thing.
+
+In short, Raddix is ​​for you if you need a hook that keeps the API simple and does only one thing.
+And it's not for you if you need a hook that does a lot of things and also uses the hooks it depends on.
