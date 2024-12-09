@@ -1,3 +1,5 @@
+import type { ButtonProps } from '@/components/button';
+
 export interface HeroProps {
   title: string;
   description: string;
@@ -5,6 +7,7 @@ export interface HeroProps {
     text: string;
     to: string;
   };
+  actions: ButtonProps[];
 }
 
 export interface Feature {
