@@ -12,7 +12,14 @@ const config: Config = {
       fontFamily: {
         mono: ['var(--font-jetbrains-mono)'],
         inter: ['var(--font-inter)'],
-        days: ['var(--font-days-one)']
+        days: ['var(--font-days-one)'],
+        tight: ['Inter Tight Variable']
+      },
+      keyframes: {
+        swing: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-100px)' }
+        }
       }
     }
   }

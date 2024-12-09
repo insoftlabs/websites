@@ -1,36 +1,40 @@
 {
   "hero": {
-    "title": "Collection of Essential React Hooks",
-    "description": "React hook library, modern, light, easy to use, and type-safe.",
-    "button": {
-      "text": "Get Started",
-      "to": "/docs/getting-started/installation"
-    }
+    "title": "A library of dependency-free React hooks",
+    "description": "Raddix is a collection of modern, server-safe, typescript-written, zero-dependency React hooks that do one thing.",
+    "actions": [
+      {
+        "text": "Get Started",
+        "link": "/guide/introduction",
+        "color": "primary"
+      },
+      {
+        "text": "View on GitHub",
+        "link": "https://github.com/insoftlabs/raddix",
+        "target": "_blank"
+      }
+    ]
   },
   "features": [
     {
-      "title": "🔑 Type-Safe",
+      "title": "Type-Safe",
       "description": "All hooks are written in typescript, and full typescript support."
     },
     {
-      "title": "📦 Lightweight",
-      "description": "Raddix is a lightweight library, ensuring that your application does not become heavy."
-    },
-    {
-      "title": "🧩 Easy to use",
+      "title": "Zero-dependency",
       "description": "All hooks are easy to use, just import and use it."
     },
     {
-      "title": "🔬 Fully tested",
+      "title": "Lightweight",
+      "description": "Raddix is a lightweight library, ensuring that your application does not become heavy."
+    },
+    {
+      "title": "Fully tested",
       "description": "All hooks are fully tested, and 100% test coverage."
     },
     {
-      "title": "🌳 Tree-Shakable",
-      "description": "Just import what you want and remove unused code."
-    },
-    {
-      "title": "🎡 Interactive demos",
-      "description": "Each hook has an interactive demo to demonstrate its use"
+      "title": "Server-Safe",
+      "description": "All hooks are server-safe, no window or document object used."
     }
   ]
 }
