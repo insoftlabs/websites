@@ -4,10 +4,10 @@ import { Button } from './button';
 export const Hero = ({ title, description, actions }: HeroProps) => {
   return (
     <section className='relative mb-16 mt-44'>
-      <h1 className='font-tight mx-auto mb-6 max-w-[25ch] text-balance text-center text-[3rem] font-extrabold leading-[3.5rem] text-white md:text-[4rem] md:leading-[4.8rem]'>
+      <h1 className='font-tight text-dark mx-auto mb-6 max-w-[25ch] text-balance text-center text-[3rem] font-extrabold leading-[3.5rem] md:text-[4rem] md:leading-[4.8rem] dark:text-white'>
         {title}
       </h1>
-      <p className='mx-auto mb-xl max-w-[768px] text-center text-md text-[#888]'>
+      <p className='mx-auto mb-xl max-w-[768px] text-center text-md text-gray-40 dark:text-[#888]'>
         {description}
       </p>
       <div className='flex justify-center gap-2'>
