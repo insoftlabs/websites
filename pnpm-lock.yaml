@@ -81,6 +81,9 @@ importers:
       '@algolia/client-search':
         specifier: 4.17.2
         version: 4.17.2
+      '@fontsource-variable/inter-tight':
+        specifier: 5.1.0
+        version: 5.1.0
       '@raddix/switch':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -295,6 +298,9 @@ packages:
   '@eslint/js@8.39.0':
     resolution: {integrity: sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  '@fontsource-variable/inter-tight@5.1.0':
+    resolution: {integrity: sha512-yUSW6LxZmHtbOvyWcQE73q/GbXp19WeVVF3HlKgRXIYjWjOzkR30N73myM/sDWqG4YyflYz/TRVJrzXOMSozag==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -2743,6 +2749,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.39.0': {}
+
+  '@fontsource-variable/inter-tight@5.1.0': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:

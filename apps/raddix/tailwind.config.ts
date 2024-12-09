@@ -12,7 +12,8 @@ const config: Config = {
       fontFamily: {
         mono: ['var(--font-jetbrains-mono)'],
         inter: ['var(--font-inter)'],
-        days: ['var(--font-days-one)']
+        days: ['var(--font-days-one)'],
+        tight: ['Inter Tight Variable']
       }
     }
   }

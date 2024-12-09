@@ -15,6 +15,8 @@ import { fonts } from '../fonts';
 import { getConfigFile } from '@/lib/content';
 import { configSite } from 'content/site/_config';
 
+import '@fontsource-variable/inter-tight';
+
 interface Props {
   params: { lang: string };
   children?: React.ReactNode;
@@ -72,7 +74,7 @@ export default async function RootLayout({
 
   return (
     <html lang={lang} data-theme={getTheme()} className={fonts}>
-      <body className='font-inter'>
+      <body className='grid min-h-dvh grid-rows-[auto_1fr_auto] font-inter'>
         <Providers
           defaultTheme={getTheme()}
           defaultPkgManager={getPkgManager()}
