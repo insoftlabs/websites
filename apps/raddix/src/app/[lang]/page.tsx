@@ -1,8 +1,9 @@
 import { type Metadata } from 'next';
-import { Features } from '@/components/features';
+// import { Features } from '@/components/features';
 import { Hero } from '@/components/hero';
 import { getHome } from 'data/home/get-home';
 import { getLocaleUrl, getLocaleUrls } from '@/i18n/utils';
+import { MoveLineShapes } from '@/components/shapes';
 
 interface Props {
   params: { lang: string };
@@ -22,8 +23,9 @@ export default async function Page({ params: { lang } }: Props) {
 
   return (
     <main className='mx-auto max-w-std px-6 lg:px-0'>
+      <MoveLineShapes />
       <Hero {...home.hero} />
-      <Features features={home.features} />
+      {/* <Features features={home.features} /> */}
     </main>
   );
 }

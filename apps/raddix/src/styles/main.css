@@ -61,3 +61,35 @@ code {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+/* CSS for shapes components */
+
+.line-one::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    #5049e6,
+    transparent
+  );
+  border-top-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  transform: rotate(-42deg);
+}
+
+.line-two::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to bottom, transparent, #7e8af8, #818cf800);
+  border-top-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  transform: rotate(-42deg);
+}
+
+.line-one,
+.line-two {
+  position: absolute;
+}
